@@ -1,0 +1,51 @@
+
+Method Overloading:
+    It's a mechanism in Java that allows us to have the same method name with different parameters.
+    Parameters can be different in number, type, or sequence.
+Why we should overload a method?
+    1. It allows us to reuse the same method name again and again that we don't have to come up with different
+    method names if we are doing the same thing again and again. In case we have different method with the same names,
+    Java will not only check the names, but checks the parameters as well.
+    2. It allows us to write a clean code
+How to overload a method?
+    We can overload a method by redefining it with different parameters.
+    --------------------------------------------------------------------------------
+
+************  Method Overriding  **************************
+
+ Method overriding is a mechanism in Java that allows a Child Class to provide a specific implementation of a method
+ inherited from Parent class.
+
+ Why we should Override a method ?
+    If a Child class does not like the implementation of Parent class, it has the flexibility to override that method.
+ Syntax of Override :
+    Without Inheritance, override is impossible.
+ Rules:
+ 1. To override a method , there must be parent and child relationship between two classes
+ 2. If something cannot be inherited, we cannot override it. For example: private methods and constructors
+ 3. Visibility of a method can be increased. For example: if something has default access modifier or protected,
+    We can make it public, but we cannot make it private. Only we can increase the visibility Not decreasing.
+ 4. Constructors don't participate in Inheritance, therefore we cannot override it.
+ 5. If a method declared static, cannot be overridden but can be re-declared. because they are not bound with object of the class.
+ 6. Main method cannot be overridden, but we can re-declare it because its also static.
+ 7. A method declared final, cannot be overridden.
+
+More definition method overriding :
+   If we the same method name in Parent and Child classes with the same output...sometimes we need to modify or change
+   the method's feature in child class and dont want the exact feature of parent class. This way, we override it.
+   for example: method speak() exists in Parent class of animal with return feature of "Animal eat meat, animal can speak"...
+   But in Child class method by extending Parent class (through inheritance) the speak() method can be accessed/inherited.
+   Here is a problem, the Child class is (Cat extends Animal) but same method of speak() that "Animal eat meat or animal can speak"
+   wouldn't work for Cat, cat can speak "meow meow" or eat certain things... Here we can override the feature.
+
+---------------------------------------------------------------------------------------------
+Method Signature:
+       Method signature the method name with parenthesis or parameter... For example: printInfo() ... this is signature method
+       So the (method name, parameter list) and return type have to match exactly the same in Parent and child class.
+       Also called Signature Block.
+---------------------------------------------------------------------------------------------
+
+  @Override : this is called Annotation
+        // Annotation checks by compiler if something is wrong like, the method names are not the same or datatype is different
+        // we can use shortcut by just writing the method name Example: getPrerequisite... compiler automatically give everything
+        //    with the annotation included

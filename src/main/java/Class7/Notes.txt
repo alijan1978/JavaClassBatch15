@@ -1,0 +1,12 @@
+
+While Loop:
+    It help us repeat the code. We use it because manually copying and pasting is taking time and is not good.
+    While Loop also help us reduce the number of lines of code that we have to type.
+    Important:
+    While Loop always and just works with boolean datatype true or false.... even if we use it through
+    relational operators to compare > < , it returns boolean value true or false.
+
+Syntax:
+    while (condition){
+        system.out.println();
+    }

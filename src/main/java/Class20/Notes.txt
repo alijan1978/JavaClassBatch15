@@ -1,0 +1,67 @@
+
+Method...
+What is method? Method represents an action in a class. Class consist of mainly two things, fields and behavior.
+-------------------------------------------------------------------------------------------------------
+Recap on Super Keyword:
+    If we similar exact variables or method name in Parent and child class, then we use Super keyword to refer
+    to the parent class. Because by default, it prints the closest local variable.
+    Super keyword ONLY works within a Child class, not any other place.
+    We can create a method inside the Child class and call the instance variable of same name in System.out.println()
+    But if we call the instance variable of the same name in Child class, we use this keyword
+ Super keyword definition;
+    It is used to refer to the Parent class members like fields methods and constructors.
+    We use it whenever we have the same name fields or method exists inside the Parent and child class, then we use
+    Super Keyword to explicitly refer to the Parent class variables methods or constructors.
+ Note:
+    By default, Java prefers the closer local variable then looks for the instance variable from the same class,
+    after that it looks for the instance variables or methods from the Parent class.
+    Therefore, we only use This keyword and Super Keyword when
+    we have a conflict of the same name variable or constructor within Parent and Child classes.
+    ----------------------------------------------------------------------------------------------------------
+
+    ********  Method Overloading *************************
+
+    Method overloading happens when the same name method exists in a class with different parameters.
+    We can overload methods in 3 different ways:
+    1. By changing the number of parameters
+    2. By changing the datatype of parameters
+    3. By changing the sequence of parameters
+
+ // We can simply change the parameters of another same method. for example, we can add another int value,
+    // or we can change the datatype of int to double or whatever. Or we can change the sequence of its parameters.
+    // If we have different methods with the same name, it's possible if we change its parameters by:
+    // changing the number of parameter, datatype of parameter, or sequence of parameter
+    // Method overloading means -> to use the same method over and over again just with changing its parameters.
+
+ Why we should use Method overloading or overload a constructor ?
+    For clean code and flexibility to the End User.
+    Overloading can be used in all data types : primitive or non-primitive
+    We can change the Static method in overloading too....overload instance, everything
+    if we have static in the same class, we don't need to create object.
+    simply call with method name ... But if we create a separate class to static method, we need to create Object
+
+           // Even if there is not a perfect match of the datatype we pass,
+            // Java tries to type casting by changing the datatype value. up casting or down casting
+            // For example, if there is two int, and we have int and double in our method, java changes one of int values to double
+            // to print out.... Not from int to String. it only changes if there is No loss of information. EX: 10 and 10.0 is Same.
+
+            we can use private modifier to overload it... so overloading can be on everything
+Important:
+        Programming programming=new Programming();
+        new Programming("Java");
+        // we can also use just the constructor part instead of whole
+        // but if we want to call a method with the object name variable, then we need the whole
+        // with Static method, no need to create object of the class
+
+    ------------------------------------------------------------------------------
+    Important things in Java:
+    If else condition
+    Loops
+    Arrays
+    Methods
+    String class
+    Inheritance
+
+
+
+

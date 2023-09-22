@@ -1,0 +1,27 @@
+
+Method Overriding:
+    It happens when same method with different implementation exists ina Parent and Child class.
+Why should we override a method?
+    1. Flexibility: when we inherit from a class, if we don't like some methods then we can modify them.
+Rules:
+    1. Private methods and constructors cannot be overridden because they don't participate in Inheritance.
+       Constructors belong to fields and methods of a class which created, so cannot be inherited in another class.
+    2. If we want to override from another class, we must Recreate that exact method inside the Child class and can
+        have or change it to different implementation. Only access modifiers can be different except private access,
+        but can have more visibility based on access modifiers than the method inside the parent class.
+        We can ONLY increase the visibility of modifier, CANNOT decrease it.
+Important:
+    Always the inherited method we want in Child class should be the same as declared in Parent class.
+    For example: The same access modifier, or if its static method, it should be used the same.
+
+**** Constructors initializes the instance fields of the class and always good to create constructor of the same instance fields
+    We can create an instance method Also, we can
+    create constructor with the name of Class (with or without parameters).
+1. Shortcut: right click in editor -> Generate constructor -> select the fields -> click Enter.
+2. If we don't create a class constructor, java compiler creates it by default (No parameter) in behind scene
+    (can be seen in Out folder or bin in everytime we create main method and run the class) but once we create constructor, its gone.
+3. If press Ctrl+O or Right Click and press (To override method) -> select the method and click enter.
+
+
+
+

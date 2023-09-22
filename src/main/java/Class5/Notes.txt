@@ -1,0 +1,55 @@
+
+Scanner Class:
+    Helps us use take the input from keyboard.
+
+Logical Operators:
+    Just another set of symbols that we can use to combine multiple boolean values.
+    There are three logical operators:
+   1. ! => Not
+   2. && => And
+   3.|| => OR
+
+    By using logical operators, we can simplify the logic if we use these operators
+   NOT Operator ! :
+
+            False   =>  True
+            True    =>  False
+        used to negate the boolean values if something is true, it will make it false
+        if something is false, it will make it true.
+
+   And operator &&:
+
+        False   False   => False
+        False   True    => False
+        True    False   => False
+        True    True    => True
+
+   OR operator || :
+
+        False   False   => False
+        False   True    => True
+        True    False   => True
+        True    True    => True
+   ----------------------------------------------------
+
+   What is Switch Case statement?
+   Switch Case Statement is just another ways of achieving the same results as if-else statement conditions
+
+   Why we should learn it?
+   The reason we should use them is that they are very faster than is statement
+   Syntax:
+            String variable:
+                    switch(variable){
+                    case 1:
+                    system.out.println("print number 1 ");
+                    }
+------------------------------------------------------------
+
+        // Important: We can only use Switch Case with (byte, short, int, char, String )  Not boolean
+//        boolean rich = true;
+//        switch (rich)
+
+//        Also : we cannot use Relational Operators with Switch Statement, as below:
+//        int number=10;
+//        switch (number)
+//            case number>5 || number<10

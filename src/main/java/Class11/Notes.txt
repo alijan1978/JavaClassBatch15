@@ -1,0 +1,24 @@
+
+ 2D Arrays:
+    Two Dimension Arrays are arrays that contain 1 D arrays in it.
+ Why should we learn 2D Array?
+    Because 2D Arrays allow us to store multiple one D arrays which gives us more flexibility to store data.
+    Ex: if we have to store data from Excel files, we can use 2D arrays.
+
+ Syntax to create 2D arrays:
+    Datatype[][] nameofArray = new Datatype[sizeOf Rows][];
+ 2nd way:
+    Datatype [][] nameOfArray = {{ data, data, data }, { data, data, data}, {data, data, data, data, data}};
+
+    ==================================================================
+
+ OOPs Concept:
+    Its just some set of rules that if we follow, we achieve many advantages.
+    Object Oriented Programing .. helps us how to make/bring changes to the existing code without breaking the code.
+    How to isolate responsibilities? how write code in smaller blocks and to use those blocks to build complex bigger things.
+    1. how to avoid repetition... code repetition is minimized
+    2. how to make easy... changing existing code and adding new features becomes easier.
+    3. how to maintain the code and or add any features with rules of OOPS ..
+    4. translate the problems and represent the entities from our real lives inside the computers
+       - Representing the real life entities becomes easier.
+    5. OOPS helps us to write a secure code...

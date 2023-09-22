@@ -1,0 +1,13 @@
+
+Logical Operators: ! , && , ==
+    It allows us to combine multiple condition. It works with boolean (true/false) values.
+Why we should use logical operators?
+    1. greatly simplify our condition codes
+    2. helps us reduce the huge lines of code that we used to write
+
+NOT ! operator:
+    It reverse the conditions, like: something is true, makes it false. if its false
+
+OR || operator:
+    It can combine two or more conditions, return true as long as there is one true condition.
+    It shows ONLY false, if all conditions are false.

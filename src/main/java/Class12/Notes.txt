@@ -1,0 +1,40 @@
+
+OOPs => Object Oriented Programming:
+    Its just a way of writing code that follows certain rules or guidelines. We create classes that have
+    first (attributes/properties OR fields) second (Method, function OR behavior).
+
+Why we should learn OOPs?
+    1. IT simplifies the software development and maintenance which is adding new features changing to the existing code.
+    2. Code duplication is reduced.
+    3. It also helps us represent something from our real life with the help of class and object.
+
+What is Class?
+    It is a blueprint /design from which the actual real life objects are created. So, computer uses a class
+    to check what that class can do, Example:
+    Scannner scan=new Scanner(System.in); Here Scanner is a Java built-in class, scan is an object of Scanner class.
+    with the help of object, we can use the methods/behaviors from a class so that we can use properties/fields from that class.
+What is Object?
+    Objects are created from classes, also called Instances.... we can use them to call method/properties from those classes.
+
+Note:
+Inside a class, the sequence doesn't matter, you can define the methods first or the properties first.
+But, when we are inside the method, then the sequence matters.
+   // because we call the fields based on sequence through the object in System.out.println();
+           // We can create as many objects as we want... hundreds/thousands
+-----------------------------------------------------------------
+
+String Methods:  .length()
+
+This method returns the length of this String. The length is equal to the number of 15-bit unicode characters in String.
+Syntax:
+String.length()
+----------------------------------------------------------
+
+ASCI Table in Java:
+
+Every character/ letter/ number has a Number representation in Java.
+Stands for: American Standard Code for Information used to represent alpha-numberic data.
+
+
+
+

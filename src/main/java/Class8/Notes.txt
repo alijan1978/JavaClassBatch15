@@ -1,0 +1,16 @@
+
+Loops help us repeat the instructions in code. For example, if we have to print the numbers from our 1 to 100 ,
+we can do this by copying and pasting the code which is bad and not scalable. Other way of doing this using Loops.
+There are four types of Loops:
+1. while loop
+2. do while loop
+3. for loop
+4. enhanced for loop
+
+Break Keyword:
+    Break is used to stop iteration just like the condition that we use inside a loop. Always works with if condition.
+
+Continue Keyword:
+    It is used to skip all the code written inside the body of the loop when it reaches given condition.
+    it also works with if condition.
+

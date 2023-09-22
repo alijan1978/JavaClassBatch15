@@ -1,0 +1,61 @@
+
+What are Operators ?
+    Operators are different symbols that we can use to perform operations like addition, subtractions,
+    we can compare things if two entities are the same or not, if a number is greater than the other or not.
+    There are three (3) main types of operators.
+    1. Arithmetic Operators
+    2. Relational Operators
+    3. Logical Operators
+
+Arithmetic Operators:
+    We use Arithmetic operators to perform simple math operations. Like addition, subtraction, multiplication, division.
+    +  addition
+    - subtraction
+    / division
+    * multiplication
+    % modulus ... Remainder of division quotient
+
+Relational Operators:
+    Relational operators are used to compare two quantities or entities. For example, if something is bigger than
+    other thing, or if two numbers are the same or not, if two boolean variables contain the same values or not.
+    == Equal to
+        Used to check if two variables contains the same value or not, if they are the same we get true, otherwise false.
+    != Not equal to
+        used to check if to variables don't contain the same value. We get a true if they are not the same
+    > Greater than
+        used to check if one value is greater than other value or not. If greater we get true
+    < Less than
+        used to check if the value on the left is smaller than the value on the right side. If smaller, we get true
+    >= Greater or Equal to
+        If the values on the left is greater than the value on the right side, OR if they are the same, then we get true.
+    <= Less than or Equal to
+        It's opposite of >= which is used to check if something is less than or equal to other thing or they are the same.
+
+Conditional constructs:
+    Used to write conditional code. A piece of code that execute based on a condition and if the condition true,
+    the Java execute the code otherwise it skips that code.
+How to write IfElse Conditions:
+
+    if(condition){
+    Any line of code can be written here
+
+    Even we can NestedIf, even another if condition Example:
+        if(){
+
+         }
+    }
+
+Important Notes:
+    1. For String, we use equal method ( name.equals(name) ) ... instead of == sign, because its non-primitive datatype
+    2. WE can use cmd+opt+l (Mac) OR Ctrl+alt+l (Windows) to format out code
+    3. If we are confused about the brackets { } , click on the opening or closing part of brackets to check the other part
+
+If else condition:
+    When I have to test the same variable for multiple conditions, I should use (IfElseIf )
+    when I have multiple conditions and these conditions are dependent on each other NestedIf conditions
+
+
+
+
+
+

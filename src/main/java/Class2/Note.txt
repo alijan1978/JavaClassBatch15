@@ -1,0 +1,5 @@
+
+We have to follow some rules for naming like classes and containers (boxes) which are called Variables.
+    1. Naming to a class's first letter of all the words should be Uppercase, Ex: DecimalNumbers
+    2. Naming to a variable / boxes first letter at the beginning should be Lower case, then the rest follow above rule
+

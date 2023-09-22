@@ -1,0 +1,49 @@
+
+Constructors:
+    These are block of code similar to a method that is executed when we create an object of the class.
+Why do we need constructor?
+    Because it initializes the object
+HOw to create a constructor?
+    1. Constructor name must be the same as class name
+    2. No return type
+
+We have two types of Constructors:
+    1. Parameterized
+    2. Non argument
+
+    ------------------------------
+// this keyword -> refers to the current object. it can be used with variables and methods.
+this keyword refers to the instance variables. In situation when local variable have the same name as object/instance,
+ then we use "this keyword" to differentiate and refer to the instance/object variable.
+ This keyword can also be used to refer to the instance method.
+ -----------------------------------------------------
+Inheritance in Java:
+    By the help of "extends keyword" we can implement the inheritance.
+    With Inheritance, we can access to other classes attributes and behaviors based on parent and child classes.
+
+ Advantage of Inheritance in Java:
+    Application development time is Less
+    Application takes less memory
+    Application execution time is less
+    Eliminates repetition of code / Redundancy of code is reduced.
+
+ Code Re-usability:
+    The same methods and variables which are defined in Parent class can be used in Child class with Extends keyword.
+
+Disadvantage of Inheritance:
+    Two classes (Parent & Child classes) are tightly coupled.
+    tight coupling means two or more classes are dependable to each other.
+    If we change any code from parent class, it will affect to all Child classes inherited Parent class.
+    So, the Child classes are not Independent.
+
+There are three types of Inheritance:
+    Single Inheritance
+    Multilevel Inheritance
+    Hierarchical Inheritance
+
+Single inheritance:
+    Just one parent class and one child class.
+Multilevel inheritance:
+    When there is one parent class, then the child class has another child class to its self.
+Hierarchical inheritance:
+    When parent class has many child classes or multiple child classes.

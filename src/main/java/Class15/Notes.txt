@@ -1,0 +1,71 @@
+
+Methods in Java:
+    Method is a collection of java statements and blocks of code.
+Why we should learn methods:
+    1. It allows us to simplify large code as we can divide the logic into smaller parts by creating methods for them,
+        build those methods one by one and later on combine them to build the complete application.
+    2. Methods allow us to reuse the code once created. it has re-usability .
+    3. Methods allow us to be flexible, change or update the method.
+
+How can we create Methods ?
+    There are two types of methods: 1. Built-in  2. User Defined.
+
+Built-in Methods:
+    The which are designed by the Java developers. For example, the println() , nextInt(), method in the Scanner class,
+    length(),  present in String class they are all built-in methods.
+User Defined Methods:
+    The methods that we write.
+
+Methods which return something when called and others are methods which do not return anything when called.
+
+    int add(int a, int b){
+    return a+b;
+    }
+int => return type of a method
+add => name of the method
+(int a, int b) => parameters OR input of the method
+{ } => body of the method
+
+Rules:
+    Return type and the values that we are returning from a method should match.
+    We can only assign methods to the variables of the same type.
+=================================================================================================
+Variables:
+    There are 3 types of variables with respect to their scope. Local Variable, Instance Variable, Static Variable.
+1. Local Variable:
+        If a variable is created inside a block of code { } , like inside method Or main method, loop, if-else condition, etc...
+        They are called Local Variable.
+  Local Variable Upside OR Advantage:
+        Local variables occupy the memory for the shortest period of time. You should always try to write code with
+        the help of local variables. They are created as long as we need them, once we are done, the memory becomes empty again.
+        But Instance and Static Variable stays and occupy computer memory even we don't use them.
+  Local Variable Downside:
+        They cannot be accessed outside the block in which they are created, always accessible inside block of code { }.
+         They have very limited scope. smaller scope, only inside th block of code { }
+-------------------------------------------------------------------------
+2. Instance Variable:
+        All the variables which are created inside a class, but outside of the methods or main method are called
+        Instance Variable.
+  Instance Variable Upside:
+        We can use them or access it in all the instance methods of that Class. Their scope is larger than Local variables.
+  Downside:
+        They stay longer in the memory as compared to local variable. so it reserve space in RAM.
+
+    3. Static Variable:
+       It's a variable that has always have Static keyword and exists outside of methods.
+    Upside:
+    ONly occupy one memory location from the RAM, even though we create 1000 objects of that class.
+    Also, Static variable can be accessed/used in any code inside the Class, in any method of a Class,
+     Can be accessed with any object of that Class to get the value. Static has the most wide scope.
+     Important:
+        When we have Static method, or variable... we can directly call it in the same class in System.out.println()
+        with out creating any object or instance of that class.
+
+  DownSide of Static:
+    They are loaded into the memory RAM when a class is loaded even though you don't use them.
+------------------------------------------------
+
+
+
+
+

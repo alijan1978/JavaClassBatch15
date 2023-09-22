@@ -1,0 +1,66 @@
+
+"This Keyword" refers to the current class object and instances.
+This can be used to access current class instance variables and methods.
+this () -> used with constructor to call current class constructor
+---------------------------------------------------------------------------
+
+Inheritance in Java:
+    It is the process when subclass acquires properties and behavior from the Super Class using extends keyword.
+    We use it for code reusability, readibility, and to eliminate code redundancy
+Example:
+
+class Parent{
+
+}
+class Child extends parent{
+
+}
+Three types of Inheritance:
+Single inheritance : 1 Parent class & 1 Child class
+Multilevel inheritance : Parent class -> Child class -> Sub-child class
+Hierarchical inheritance : 1 Parent class -> multiple Child classes
+
+(Child class have multiple parents with Interface implements keyword)
+-------------------------------------------------------------
+
+Access Modifiers 4 Types:
+    from Less Restrictive to the most Restrictive OR the level of restrictions
+public -> protected -> default -> private
+
+Note: Private variable or method don't participate in Inheritance concept
+----------------------------------------------------------
+
+Super Keyword:
+    super(); If we create or don't create super() in our constructor, JVM creates it by default.
+    super Keyword makes a call directly to the Main class (parent class) from the constructor through inheritance by extends keyword
+    If we create or Not, Java compiler will create a default super() in behind to access the parent class
+
+this keyword -> refers to the current instance variable of the same class
+super keyword -> refers to the current parent class method
+
+Important:
+    Even if we dont create constructor in main method, the compiler creates it by default in behind scene
+---------------------------------------------------------------------
+
+
+Access Modifiers: Variables Syntax
+
+        Optional            Optional                Optional        Optional
+    Access Modifiers    Non-Access Modifier         Datatype        Name;
+
+Methods Syntax:
+              Optional            Optional                Optional        Optional
+          Access Modifiers    Non-Access Modifier       returnType        name() {}
+
+Super keyword: its used to refer to the immediate parent class
+Can be used with variables and methods, also can be used with constructors
+
+    -------------------------------------------------------------
+Defining Object & Constructor Syntax:
+
+Flower flower1 = new Flower();
+
+Flower -> Type
+new -> creates an object
+Flower(); ->  initialize the object (calling a constructor)
+flower1 ->  its variable (reference variable)
