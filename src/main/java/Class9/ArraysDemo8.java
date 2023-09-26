@@ -1,6 +1,6 @@
 package Class9;
 
-public class ArrayDemo8 {
+public class ArraysDemo8 {
     public static void main(String[] args) {
 
         // Write a program that can tell us how many times the number 10.5 is present in the Array

@@ -1,6 +1,6 @@
 package Class9;
 
-public class ArrayDemo7 {
+public class ArraysDemo7 {
     public static void main(String[] args) {
 
         // Create an array and store 10, 20, 30, 4, 5, 6, 7, 80

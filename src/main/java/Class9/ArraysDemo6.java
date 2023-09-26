@@ -1,6 +1,6 @@
 package Class9;
 
-public class ArrayDemo6 {
+public class ArraysDemo6 {
     public static void main(String[] args) {
 
         // Create an empty array then store 45, 44, 33, 20, 10 in it.

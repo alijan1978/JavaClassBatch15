@@ -1,6 +1,6 @@
 package Class9;
 
-public class ArrayDemo9 {
+public class ArraysDemo9 {
     public static void main(String[] args) {
 
         // Write this " I love Java " by using char type

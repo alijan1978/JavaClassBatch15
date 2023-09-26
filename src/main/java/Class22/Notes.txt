@@ -22,6 +22,33 @@ Important:
     (can be seen in Out folder or bin in everytime we create main method and run the class) but once we create constructor, its gone.
 3. If press Ctrl+O or Right Click and press (To override method) -> select the method and click enter.
 
+---------------------------------------------------
+Note: @Deprecated annotation: it means the Devs don't recommend using this,
+it might be dangerous or not a good option ... if used the compiler generates a warning
+    So, there are better alternatives exist
+------------------------------------------------------
 
+Upcasting : storing something from a smaller datatype into a bigger datatype. Example: into variable => double variable
+For WebDriver class, instead of Child class Chrome we can change it.
+Example:   Chrome googleChrome = new Chrome();  .... now we can upcast it to bigger space object
 
+WebDriver webDriver = new Chrome();
+webDriver.startBrowser();
 
+*********** Polymorphism *******************
+
+When we achieve Polymorphism by overriding a method and by doing inheritance .... its called Dynamic Polymorphism
+
+Another way of achieving Polymorphism is method overloading... called static polymorphism
+
+Polymorphism two ways:
+Compile time: with the help of overloading
+Run time: with the help of overriding method
+
+---------------- Final Keyword --------------------------
+
+Final keyword: When it's used with a variable, the value will not be changed (immutable) because its marked as Final.
+               When it's used with a method, that method cannot be overridden
+               When it's used with a class, it cannot be inherited by another class
+Rules of Final:
+    99 % of time, Final keyword is used with static keyword.

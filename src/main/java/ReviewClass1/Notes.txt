@@ -1,0 +1,20 @@
+
+How many Data Types we have in Java?
+    We have two datatype: 1. Primitive 2. Non-primitive
+
+1. Primitive datatype:
+    byte, short, float, int, long, double, boolean, char
+If we have Numeric value :
+    Whole number -> byte, short, int, long
+    Decimal numbers -> float, double
+    boolean -> true or false
+    char -> single character or single letter
+
+2. Non primitive data type:
+     Array, Class, String, and Interface
+     ------------------------------------------
+What is ASCII Table in Java?
+   ASCII stands for American Standard Code for Information Interchange.
+    Its a standard data-encoding format for electronic communication between computers.
+    With the help of ASCII chart, Every character or number has a specific number behind the scene in ASCII table
+

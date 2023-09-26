@@ -1,0 +1,61 @@
+
+Polymorphism in java:
+    Its one of the OOPs features. It allows us to perform same action in different ways. There are two types:
+
+    1. Early Binding or Compile time => with the help of method overloading ... also called Static Polymorphism
+
+    2. Late Binding or Run time => With the help of method overriding... also called Dynamic Polymorphism
+
+Why we should use Polymorphism?
+    It allows us to write Less code and call multiple methods.
+Polymorphism Syntax:
+    1. for Static Polymorphism, we need to over load a method
+    2. for the Dynamic Polymorphism, we need to extend from a class, then to override the method from Parent class.
+-----------------------------------------------------------------------------------------------------------------
+
+Final Keyword:
+    There are three main uses of the Final keyword:
+    1. When we use the Final keyword with a variable, we cannot change its value once it is assigned.
+    2. When we created a variable constant, then we declare the variable as final.
+    3. When we use it with a class, No other class can inherit from that class.
+    Also, we cannot use if the method is declared as final.... so with final we block all the modification ways.
+
+****  Abstraction in Java ****************
+
+    Its the 3rd pillar of OOPs object. Its a process of hiding the implementation details and showing only the
+    functionality to the user. For example, void abstract speak(); ... user is not obligated to write the implementation
+    in System.out.println() because anyway it will be overridden in the child class. Also if we want an abstract method,
+    we should declare the Class on top as abstract as well.
+
+Why we should use Abstraction ?
+    1. It reduces the code complexity.
+    2. It allows the End User to focus on using the features instead of worrying about the implementation.
+Syntax:
+    We need to declare the method as "abstract" if we don't plan to provide the implementation.
+    We also need to write the abstract keyword with the class as well.
+Example: abstract void open(); // abstract keyword is i method header, and open() method signature.
+
+Abstraction is one of the key concepts of object-oriented programming (OOP) languages.
+Its main goal is to handle complexity by hiding unnecessary details from the user.
+That enables the user to implement more complex logic on top of the provided abstraction without understanding
+or even thinking about all the hidden complexity.
+
+Abstraction in Real Life
+
+Your car is a great example of abstraction. You can start a car by turning the key or pressing the start button.
+You don't need to know how the engine is getting started, what all components your car has.
+The car internal implementation and complex logic is completely hidden from the user.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
