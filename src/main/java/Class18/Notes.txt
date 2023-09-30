@@ -18,6 +18,7 @@ this keyword refers to the instance variables. In situation when local variable 
  This keyword can also be used to refer to the instance method.
  -----------------------------------------------------
 Inheritance in Java:
+    Inheritance represents the IS-A relationship also known as parent-child relationship.
     By the help of "extends keyword" we can implement the inheritance.
     With Inheritance, we can access to other classes attributes and behaviors based on parent and child classes.
 

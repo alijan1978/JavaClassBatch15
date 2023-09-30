@@ -1,0 +1,27 @@
+
+SRD => Software Requirement Document -> User Stories
+What is Lambda expression ??
+
+The best site to search about Java is JavaDocs ....belongs to Oracle
+
+Abstraction:
+    Allows us to simplify code by hiding implementation details and only showing the functionality to the User.
+    In Java, we can achieve this in two ways. (1) Abstract classes (2) Interface
+
+Interface:
+ It is very similar to an abstract class. We can have private, static, default, abstract methods in interface.
+ We cannot have instance fields in an interface because we don't have instance field.
+ We also cannot have a constructor in an interface.
+
+Important:
+    1. By default the methods inside Interface is "abstract", when implemented in a class should be overridden
+    2. In interface, there should ONLY exist one public access modifier either in interface or any methods... just once
+    3. In interface, a class can implement two or more interfaces at the same time using inheritance and override
+        for a class is NOT possible to extend more than one class doing inheritance
+
+When we should use interface ?
+    When objects are closely related (from same family)to each other and there is a "IS-A" relationship between classes,
+    then we should go with abstract classes if we want to use abstraction.
+    If objects are not related to each other, then we should implement abstraction with the help of interface.
+
+
