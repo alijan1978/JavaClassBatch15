@@ -1,0 +1,14 @@
+
+Interface:
+    Interface is very similar to an abstract class. It is a contract between unrelated classes. We can use it to
+    achieve abstraction. All methods are public by default and abstract as well.
+    All instance variables are by default final, static and public, they are constants (not changeable).
+    We cannot create Object of an interface. We can access or print values in main method System.out.println()
+     by calling name of "class.method name".
+FYI: 99% of time, interface has abstract  method "void trustAble(){ }"..... by default its abstract
+
+----------------- Encapsulation ------------------------------
+
+1. Create classes, but do not write all your code inside your main method
+2. Create getter & setter method and make your fields private so that you have more control over your data that is stored
+    or the value you stored in your field so that who/how to access it... the class gets more secure this way.
