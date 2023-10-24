@@ -1,0 +1,36 @@
+
+FileHandling in Java:
+    Reading and writing data to/from files are called FileHandling. To read or write the data, we should:
+    1. We need to know the path/location where file is stored, so that we will be able to read/write that file.
+    2. We need to Navigate to that location or bring the file into the memory so that Java program
+        can process the data from that file.
+We use two classes to navigate the file. FileInputStream and FileOutputStream.
+    1. FileInputStream: when we have to read the data.
+    2. FileOutputStream: when we have to write the data
+Then, we need to know about the Class that knows/recognize or deal how to read and write from an specific file.
+For example: We use 'Properties' Class when we have to read the data from ( .properties ) file. OR we use
+XSSFWorkbook to read and write the data from ( Excel ) files.
+
+Why should we learn FileHandling?
+    1. We will be storing data like username / passwords, URL, type of browsers, etc... all in Configuration files.
+    2. When we need to perform Data Driven Testing DDT , we will be storing and reading all the data from the files
+        like xlsx or csv files.
+
+How to Read/Write data from files?
+    -> Get the path
+    -> Use FileInputStream/FileOutputStream to Navigate
+    -> Use the specialized Class like Properties or XSSFWorkbook
+----------------------------------------------------------------------------------
+
+Runtime Error: it's divided into two parts
+    - Exception
+    - Error
+======================================================================
+
+What are Exceptions in Java?
+    Exceptions are runtime issues that can stop normal flow of our program and can abruptly terminate the program
+    which is very bad and leads to a bad user experience and showing some Red Lines on Console. It can happen for
+    many issues, but always shows where exactly which line number the code has a problem to be fixed.
+Exception Handling:
+    We stop the program from terminating abruptly, and we try to mitigate the issue by providing a backup code,
+    and convert the Error message to simple text.

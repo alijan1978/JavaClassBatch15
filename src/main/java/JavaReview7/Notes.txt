@@ -1,0 +1,18 @@
+
+Method is a block of code that executes/perform that particular action. We use it for re-usability to avoid rewrite
+the same method() again and again.
+
+Why we write parameter for method?
+    Because to reuse the same method, No need to hard code the same logic again and again
+
+Method Overloading:
+      Same class can have 2 or more methods with the same name in the same class, called Method Overloading
+    by using different number of parameters / or method signature is different ... drive( )
+        by using different type of parameters
+        by Sequence
+        In overloading we don't care about return type (can be changed) or access modifiers ( can be different)
+
+Method Overriding:
+    When we 2 or more methods with the same name on a different class
+    When we say two different class, just possible through Parent - Child Inheritance concept
+    In overriding, method signature or parameters should be same.

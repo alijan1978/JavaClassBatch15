@@ -1,0 +1,64 @@
+
+Logical Operators:
+    1. AND -> &&
+    2. OR ->  ||
+    3. NOT -> !
+
+
+
+AND operator && :
+
+true && true -> true
+true && false-> false
+false && true -> false
+false && false -> false
+
+OR operator || :
+
+true || true -> true
+true || false -> true
+false || true -> true
+false || false -> false
+
+----------------Example of AND operator-------------------------------
+boolean cold=true;
+boolean rain=false;
+    if(cold && rain){ --> false
+        System.out.println("I will stay at home ";
+    }
+
+----------------Example of OR operator-------------------------------
+
+if(cold || rain){ --> true
+        System.out.println("I will stay at home ";
+    }
+
+----------------Switch Statement --------------------------
+
+switch(variable){
+    case value1:
+        coda A;
+        break;
+    case value2:
+        code B;
+        break;
+    default:
+        code C;
+        break;
+}
+----------------------------------------------------------------------
+Loops :
+repeats block of code for number of times based on the condition.
+We need to loop, when we have to repeat a code... so we put
+that code inside loop block of code to avoid re-writing again and again
+There are 4 loops in Java:
+while loop, do while loop, for loop, for each loop also called enhanced for loop or advanced loop
+
+while Or do while loop:
+    We use while loop when we don't know how many times we will repeat the code
+for loop:
+    When we know in advance how many times we will repeat the code
+
+
+
+

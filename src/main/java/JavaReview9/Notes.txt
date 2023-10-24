@@ -1,0 +1,18 @@
+
+Interface:
+    We can have a collection of public abstract methods and collection of public static variables
+
+Inheritance in Java:
+    - Single inheritance
+    - Multilevel inheritance
+    - Hierarchical inheritance
+And when we deal with Interfaces, we have Multiple Inheritance that the child class can have two parents
+A Class extends another class (Parent - Child) also implements Class Drawable interface, Multiple Inheritance ...
+having two parents with the help of interface
+----------------------------------------------------------------------
+
+Encapsulation in Java:
+    Encapsulation is a mechanism to protect data and we can achieve those data by creating getter & setter methods.
+    Here we bind our variables with our methods, we make our variable private and our method public.
+Important:
+    creating a Constructor can also act as a Setter Method

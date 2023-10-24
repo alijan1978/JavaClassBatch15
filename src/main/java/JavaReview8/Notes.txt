@@ -1,0 +1,35 @@
+
+Method Overriding:
+    When we have 2 or more methods with the same name on a different class through Parent - Child Inheritance concept
+    In overriding, method signature or parameters should be same.
+    Another definition: Overriding is a process when the same method exist in Super and Subclass.
+Why we use it?
+    To provide flexibility and for re-usibility
+How to implement?
+    1. Through Inheritance
+    2. Should be same signature (name+parameters)
+    3. same return type
+    4. Access Modifiers -> Method must have the same level of visibility or higher access
+ ----------------------------------------------------------
+Important:
+    We can have the same method's name, same access modifier even static in a child class same copy of Parent class,
+    we can do it..... just the method's signature or implementation can be different.
+    We cannot override static method and private method.
+ -----------------------------------------------------------------------------
+
+ Final Keyword:
+      Identifies something is completed and No modification can be done. it can be used with :
+    - Variables -> makes variable constant (Not changeable)
+    - Methods -> Cannot override it
+    - Class -> cannot be inherited
+    -----------------------------------------------------------------
+
+ Abstraction:
+    It is process of hiding implementation details and showing only functionality.
+    We use it to reduce complexity, and to improve maintainability and security.
+ How to implement Abstraction?
+    By using abstract classes, we can achieve 0 - 100 % abstraction
+    By using interfaces, we can achieve 0 - 100 % percent abstraction (before Java 8 it was only 100%)
+
+ Abstract class or abstract keyword:
+    abstract keyword identifies something is ّّّIncomplete.

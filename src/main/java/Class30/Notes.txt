@@ -1,0 +1,23 @@
+
+If we have to read the data from a file manually from our computer, what do we need to do?
+    1. We need to know where the file is stored on our computer.
+    2. We need to navigate to that folder
+    3. A software that understands/operate how that data is stored in those files.
+
+SAME THING: If we do this in programming via coding, we need to have the path of our file, then we need jar to read our file.
+To create a new Directory on our project which is properties file:
+1. Right-Click on your project name
+2. New -> Directory (you can open a Package as well) -> Enter the name for file.
+3. Right-Click on Files and an extension should be as: " .properties" -> config.properties
+
+((( git ignore ...to exclude a file if  you don't want to push it to git repo.)))
+
+Why do we need ( .properties ) file ?
+    We use these file to store information like username, password, URL , database connection, and etc to be accessible
+    for a joint group of task working on the same framework. So that this information is secured and is not pushed
+    with the code on GitHub.
+How to get the path of a file in Intellij ?
+    1. Right-Click on your file
+    2. Copy the pat-reference
+    2. choose from content root
+    4. Press Ctrl+V to copy the path and paste it in config.properties file to the variable we created for it.

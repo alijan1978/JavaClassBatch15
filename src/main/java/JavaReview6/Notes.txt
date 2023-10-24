@@ -1,0 +1,4 @@
+
+Local variables can only be used within block of code and also in Main method block of code.
+Local variables cannot be used static because static variable is class level variable.
+

@@ -1,0 +1,65 @@
+
+Exception in Java:
+
+    Exception is an unwanted behavior that occurs at runtime and it terminates the program abruptly.
+    Unwanted behavior => it disturbs the normal flow of our program.
+    Normal Flow => If we have 10 different lines of code, java executes line by line top to bottom and program completes with no issue.
+    When an exception occurs, it disturbs the normal flow...meaning that for example in our 10 lines of code, we have an error in line # 5
+    So, Java throws an exception error and doesn't execute anything after line 5, and skip the rest of the lines and program terminates.
+
+    We have three main types of errors in Java program:
+    - Syntax error
+    - Logical error
+    - Exception error (runtime error)
+
+ 1. Syntax Error:
+           Java has certain types of rules we have to follow, If we don't follow the java syntax we get error.
+           Ex: creating Java class keyword, main method should have void return type, using exact datatype, assigning it to a variable, using { } curly bracket
+           so if we miss any of these, we get syntax error. So, syntax error occurs at the time of writing code, they don't allow us to compile the code.
+
+           How to Solve?
+                Use the Intellisence (Intellij assisting tools) or our IDE to fix the error... Ex: hover mouse and fix it.
+
+
+2. Logical Error:
+        Logical error occurs when the program don't go things that are supposed to do, Ex: During testing, we write some code to click on a Button , but
+        the program instead click on a checkBox or some other buttons. Or we write code to print number from 0 to 10 ,
+        but the program only prints 0 to 9 .
+
+        How to fix?
+            The best thing is use Debugger to find your error
+
+3. Exceptions (Runtime Errors):
+        Exceptions are errors which are produced at Runtime, the code compiles fine don't have any issue we write our code, but the moment
+        we try to Run our program , it throws errors on Console.
+
+        How to fix Exception?
+            It shows in which Class, you got what type of error. So Read the error and take the help from the Class whose exception is
+            being thrown. Ex: NullPointerException ... check how to fix null object
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Exception Handling:
+    Its finding and fixing Runtime errors and coming up with the ways to avoid these errors.
+
+There are some keywords and blocks of code that we can use to avoid these exceptions:
+1. try 2. catch 3. finally 4. throws 5. throw
+
+1. try-catch block of code :
+    It helps us to test the code by putting it First inside the try block and if something goes wrong,
+    Java executes the associated catch block where we can put backup code, or we can notify the admins.
+    This time, with the help try-catch block the program doesn't terminate, it executes all the code.
+    Example: plan A and plan B, we have in our real life, if we have electricity good, if not we should have
+    backup generator to execute our daily task.
+
+
+
+
+
+
+
+
+
+
+
+

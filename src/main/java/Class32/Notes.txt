@@ -1,0 +1,125 @@
+
+----- Exception -----
+
+Exception is an unwanted behavior which occurs at run time and makes our terminates abruptly.
+To avoid this issue, there is a mechanism called Exception handling.
+
+There are two type of Exception.
+- Checked Exception: Its mandatory to put try and catch block to handle it because JVM does not allow to compile it.
+  Since those codes are very important, Java doesn't allow to go forward, it shows red underline so that we throw exception
+  by adding exception or using try & catch block to avoid the Error because we should handle it.
+- Throws keyword:
+    -> We throws the specific exception in main ( Method Header line ).
+    - If you cannot fix it, so you leave this responsibility on somebody else to fix it.
+
+-
+Both Throw & Throws are Exceptions that we can create our own exception or on a certain condition.
+   Throw keyword: to actually throw an exception... even we can create our own exception with the help of throw keyword.
+   Throws keyword, we use it with try & catch block or we use throws to put exact exception in method header.
+
+    // Checked exception:
+           // if we hover mouse on FileInputStream Object to add exception or using try & catch block...
+           // its mandatory because Java doesn't continue to compile unless you avoid error.
+           // But we directly write throws keyword by throwing exception in Method header line
+           // so that we leave or throw responsibility of fixing on someone else, not checked
+
+           // Unchecked exceptions:
+           // unchecked ar runtime exception which something has gone wrong while Developers programmed it
+           // so it cannot be avoided by using try & catch block or throw keyword.
+--------------------------------------------------------------------------------------------
+
+Exception Handling:
+     Its a mechanism that allows us to avoid runtime errors and helps us convert complex error messages
+     to something simpler that a normal user(easy to read the console) can understand it.
+How do we implement Exception Handling in Java ?
+    We have new keywords which allow us to handle Exceptions in java, such as:
+    Blocks of code -> (1) try (2) catch (3) finally
+    Keywords -> (4) throw (5) throws
+
+try block:
+    In try block, we write the code which may throw an exception.
+catch block:
+    It contains the backup code, the code that we want to execute in case of failure.
+    It can also contain code to simplify the Error messages it can also contain the code which might send
+    a notification or an email to the developers/admin in case of failure.
+How it works ?
+    We can have multiple catch blocks (Nested Catch block) with one try block. Each catch block handles a different
+    Error. We can also put our last catch block with Exception class so that if something goes wrong and there is
+    No specific catch block for it, to handle it by the Exception one which is parent of all.
+finally:
+    Finally is block of code that is used with try & catch block... to clean up system resources
+    or if there is something important, we always put it inside finally block to be executed no matter what.
+    Finally block always execute No matter what happens in try or catch blocks.
+    We should put clean up code inside the finally blocks like close a browser or close the database connection,
+    to avoid memory use to not make lower the computer speed, and etc.
+-----------------------------------------------------------
+For example:
+
+        System.out.println("I love my family 10 time");
+        System.out.println("I love my family 20 time");
+        // Below the code gets a runtime error and stops running program after line 10.
+        // to avoid this, we use try catch block so that JVM ignore this error and continue on the rest
+       try {
+           System.out.println(10/0);
+       }catch (Exception e){
+           System.out.println(e); // just it prints the error message, but does not affect/stop the rest of code
+       }
+        System.out.println("I love my family 30 time");
+        System.out.println("I love my family 40 time");
+        System.out.println("I love my family 50 time");
+
+// We don't have any compile time error, but its a runtime error that stops the flow of running our code,
+// because we had computer faced an issue and abruptly terminate our program. So, we throw a ( try & catch )
+// to avoid this runtime error. Meaning: we put the code in try block which caused the problem, then execute the catch block by throwing Exception
+// that avoid this and continue the rest of the program or code. So that my other code are protected.
+
+Downside: But no matter what, the catch block since has Exception execute the rest of program and also shows on Console that
+something was wrong, BUT we don't know exactly where or no solution. Its better to have the specific Exception Class
+to specify the exact problem/issues so that we know what to fix. such as:
+    - Arithmetic Exception
+    - Null pointer Exception
+    - IndexOutOfBound Exception
+    - ElementNotFound Exception
+    - StringIndexOutOfBounds
+
+Exception acts as a Parent/Base class that can cover all types of exception if we put in catch block, but
+doing it is always a bad approach.
+
+try & catch block works similar as ifElse OR switch case conditions... if the try blocks works, its good...
+otherwise, skip the try block and execute the catch block. But its better to put specific Exception to catch Not the generic.
+
+As a tester, we might have a lot of test cases to perform testing, but because of having an error or exception
+in one of our test cases, all the program terminates abruptly. So, we throw try & catch block to avoid this issue
+so that the program run /execute the rest of the test cases without any affect from the code error already exist.
+
+==============================================================================
+finally:
+    Finally is block of code that is used with try & catch block... to clean up system resources
+    or if there is something important, we always put it inside finally block to be executed no matter what.
+    Finally block always execute No matter what happens in try or catch blocks.
+    For example: we have try and catch blocks that there is an exception or took care by catch block, but
+    still there might be an unexpected exception occurs... we throw finally block to run whatever we want.
+    like we want to close our webpage ( webDriver.close(); ) ... even there is exception, close the webpage.
+        So, finally block always gets executed.
+
+Final keyword:
+    - if used /declared in a class, no other class can inherit that class.
+    - No change can be made if we instantiate a method or variable as Final.
+    - If used a method Final, no other child class can override it
+
+Finalize () method:
+    Finalize is an internal JVM method that always get inherited by every class we create in Java.
+    So the Finalize () method is available in all objects that we crate in Java.
+    Also, Finalize method performs some clean up operation on objects before its removed from memory.
+    Not recommended to use Finalize method because it would disrupt JVM operation OR disturbs Java garbage collector.
+
+======================================================================================================
+
+Important:
+    on Console if we get Error messages with Exception thread... we have few Red lines showing issues...
+    That is called ( Stack trace ) that if we click on each, it takes us to the exact class and line of code that has issue.
+    Also there is an underlined exception that if we click it takes us to the built-in class to get explanation.
+
+ Best place to learn more about Java and update versions ---- go to java docs.
+
+

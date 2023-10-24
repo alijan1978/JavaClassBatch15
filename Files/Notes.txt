@@ -1,0 +1,30 @@
+
+Right click on your project
+- Create New Directory and name it Files (whatever), if you cannot create directory you can create package too
+- Then create File and name it, inside your directory
+For example: config.properties and type your user/password information with the URL you want to work on it.
+
+To read the content of the config.properties file, we should right-click on it and choose copy path/reference
+(choose content root ) it's better if it didn't work, choose the absolute root and then paste it in a class to be assigned in a variable, like this.
+
+String path = "Files/config.properties";
+
+
+try & Catch block acts as a backup block of code to perform plan A if not plan B
+But if we use Excel file, we should have the jar files downloaded from Apache Poi ...then we should import this jar in our class
+click on Project Structure, be on Modules and then on Dependencies and then click on + sign and find your poi.bin jar files and add it.
+
+Important:
+    To have automatic import works , go to Intellij Setting -> Auto Import
+    Then check mark the -> add ambigious import on fly ... so that you don't worry to manually import a new java class
+
+
+-----------------------------------------------------------------------------------------------------
+Java Bytecode and JVM working:
+
+   When we type Java code, its called ( Source Code ) then Java has a compiler that converts the source code
+   to Bytecode program where the JVM (Java virtual machine) can understand or has capabilities that knows for this specific bytecode
+   what method or implementation I should be calling. like for every package or class that we create there is
+   an OUT package which is the production files are get created to change the source code to bytecode.
+
+   Then with the help of ( Fern flower ) decompiler tool, the bytecode is converted back to source code.

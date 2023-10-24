@@ -1,9 +1,0 @@
-
-Type Casting in Java:
-    Its conversion one data type into another data type. There are two types of Type Casting:
-1. UpCasting / Widening Or Implicit Casting or automatic
-2. DownCasting / Narrowing or Explicit Casting or Manual
-
-Upcasting: We go from small data type to bigger type: byte -> short -> int -> long -> float -> double
-DownCasting: We go opposite, double -> float -> long -> int -> short -> byte
-

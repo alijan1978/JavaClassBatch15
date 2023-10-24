@@ -1,0 +1,5 @@
+
+  Downside of Enhanced Loop:
+        We cannot reverse through Enhanced For loop... so we should use Regular For Loop
+Important: we used variable 'i' many times because they are local variable used within one block of code
+            So other block of code doesn't recognize 'i' variable, ONLY within same block of code we should change

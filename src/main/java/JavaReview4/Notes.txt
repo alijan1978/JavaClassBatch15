@@ -1,0 +1,8 @@
+
+Nested loops:
+    Loop inside another loop, called outer loop and the inside one is inner loop
+    The inner loop always depends on outer loop.
+   if the outer loop condition is false, execution stops and JVM doesn't care about inner loop
+   But if the outer loop condition it true, so the loops will go to inner loop and executes it based on number of condition
+   Or we can say that The outer loop controls numbers of completing iteration / executions for inner loop
+  Also if outer loop condition is 5 times, we know that the entire condition of inner loop repeats 5 times

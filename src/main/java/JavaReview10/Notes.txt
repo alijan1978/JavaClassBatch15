@@ -1,0 +1,67 @@
+
+Interfaces are collection of abstract method and collection of public static variables which are constant not changeable
+.
+Collections:
+    A list of collections of framework that define several classes and interfaces to represent a group of objects as a single unit....
+    Implemented by: List - Queue - Set
+
+List Interface:
+    Ordered collection that contains duplicates
+Set Interface:
+    Collection that doesn't contain duplicates
+    Set is a collection of unique element
+    Set is a collection of unique element
+
+
+List is implemented by:
+    - ArrayList
+    - LinkedList
+    - Vector (Legacy class from old version Java)
+
+Set is implemented by:
+    - Hashset
+    - TreeSet
+    - LinkedHashSet
+
+-----------------------------------------
+   For example: add() method has come from Collection interface and all the subclasses List, Queue, Set implements it.
+   BUT in ArrayList, the add() method has two options just with index and another one index with integer value
+  like this:  add(1, 200) ... BUT in Set interface, we can only add, we don't have two pair option.
+
+  Difference between HashSet and LinkedHashSet :
+  - LinkedHashSet maintains insertion order
+  - HashSet does not maintain insertion order
+  -------------------------------------------------------
+
+  TreeSet :
+    Doesn't maintain insertion order
+    BUT sorts out array based on alphabetical order or chronological order
+    ---------------------------------------------------------------------------
+
+  Map:
+    Map is a collection entry of pair value objects, entries are based on key and values. Its not part of the Collection Framework
+    But, it has been built based on collection concept. We have the following Maps:
+    HashMap - LinkedHashMap - TreeMap  and old-legacy HashTable
+
+// next() returns / gives our object
+//hasNext() makes sure the object exists
+
+ // To retrieve just the objects or (keys) without keys, we use from Collection 'Set'
+        Set<String> key=newList.keySet();
+        System.out.println(key);
+
+        for(String k: key){
+            System.out.println(k+" = "+newList.get(k));
+        }
+ // Now we want to retrieve all the values from out map
+         // we store it inside Collection interface coz its Parent of all, to get my values (maintain orders and allow duplicates)
+
+         Collection<Double> values=newList.values();
+
+         for(double value : values){
+             System.out.println(value);
+         }
+
+
+
+

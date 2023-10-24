@@ -1,0 +1,57 @@
+
+Collection Framework:
+     Its a collection of classes and interfaces which help us store and manage objects i the form of collections.
+     For example: ArrayList is a part of collection. These clases make it easier to manage data as they have ready-made methods.
+     That we can use them.
+
+ Wrapper classes:
+    We can use primitive data types as objects with the help of Wrapper classes. We want to do it because Primitive Data type
+    are not supported by the classes in collection framework like ArrayList.
+
+Boxing:
+    It is the process of converting primitive data types to its corresponding Wrapper type of object type.
+Autoboxing:
+    Says just assign a Wrapper type to a primitive type variable and the conversion happen automatically.
+
+    Character fg = 'a'; -> autoboxing
+    char ch = gf; -> auto-unboxing
+
+ArrayList:
+    ArrayList is a part of collection framework, we can store single objects inside ArrayList. It works very similar
+    how array works, but its Dynamic in nature which means it can grow and shrinks its size automatically.
+    Unlike arrays, we don't need to provide the size upfront. We have built-in methods that we can use to manipulate
+    the object that we store inside that ArrayList.
+
+Diamond Operator <> :
+    Diamond operators are also called Angle Brackets < > , they are used to specify the name of the class whose
+    objects we will be storing inside the classes which belongs to Collection Framework or any other class which
+    uses Java generics.
+
+Important:
+Object o = new String ("Ali");
+Object b = new Integer (100);
+we can use it with any data type....
+
+    // Object class is the root (God father) of the class hierarchy. Every class has Object as a superclass by default.
+        // all objects, including arrays implement the methods of Object class. therefore, every class, or objects in java
+        // inherit from this Object class built-in by default. We can simply create an object of this Object class and
+        // call our method or give value in Parameter, etc. Similar like Polymorphism that each Parent class can access/have
+        // the objects of child classes. So Object class is the Parent of all classes, any other class inherit it by creating its object.
+
+Difference between ArrayList & LinkedList:
+    In ArrayList, we can access data through get method very faster. But If we want to add or remove an element
+    in-between, it will delay or makes it slower because internally it shifts the memory location to the next
+    so that make a memory spot available for your new inserted element.
+
+    But, if we add or remove in-between elements through LinkedList, it just changes the index number not memory location
+    So, they don't do shifting of memory location and this is why manipulation is faster with LinkedList.
+    ----------------------------------------------------------------------------
+
+    // After Java 10, with the help of "var" we don't need to specify the Data type... With Java 9, it doesn't work
+
+            var name="Abdullah jan";
+            var c='s';
+            var f=12.5;
+    ---------------------------------------------------
+   words.removeIf(s -> s.endsWith(("a"))); // Lambda expression by default understands the data type, No need to write
+            System.out.println(words);

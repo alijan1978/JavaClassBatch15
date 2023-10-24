@@ -1,0 +1,6 @@
+
+Important:
+
+    fruitMap.forEach((x,y)-> System.out.println(x+y));
+
+    // very new updates instead of For Loop or ForEach Loop to iterate in Collections and Maps with Lambda Expression

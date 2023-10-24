@@ -1,0 +1,47 @@
+
+Set:
+    Sets (all three types) don't allow duplicate values.
+1. HashSet:
+   Upside: Speed is fast
+   Downside: It does not maintain insertion order
+2. LinkedHashSet:
+    Upside: Maintains insertion order
+    Downside: slower speed than HashSet
+3. TreeMap:
+    Upside: Keeps the data sorted (chronologically / alphabetically)
+    Downside: Its speed is slower than all
+
+Maps:
+    Maps three main types and all allow us to store data in the form of Key Value pairs.
+1. HashMap (mostly used):
+    Upside: speed is fast
+    Downside: It doesn't maintain insertion order
+2. LinkedHashMap:
+    Upside: Maintain insertion order
+    Downside: Slower speed than HashSet
+3. TreeMap:
+    Upside: Keeps the data sorted (chronologically / alphabetically)
+    Downside: Speed is slower than all
+
+
+--------------------------------
+If we get the Ouput in Console Not readable... something like this: Entry@1239987
+type "to" and press arrow down and selection the 3rd option which is toString() method
+it will Override and shows the exact desired output what we want on Console ...
+    @Override
+    public String toString() {
+        return "Entry{" +
+                "key=" + key +
+                ", value='" + value + '\'' +
+                '}';
+
+-------------------------
+VAR keyword is a substitute for everything, every data type or collection framework lists
+Lambda expression '->' is another new thing
+================================================================
+
+
+
+
+
+

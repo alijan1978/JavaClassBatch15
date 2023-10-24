@@ -1,0 +1,26 @@
+
+If we Loop on a code and at the same time we want to remove them, we get error on Console
+"ConcurrentModificationException" that says, both action are not possible, OR when you loop you cannot remove...
+It is only possible if you do it through Iterator from Collection Framework.
+----------------------------------
+Iterator:
+
+
+--------------------------------
+Lambda Expression -> says:
+    From numbers Arraylist, remove the elements if they are greater than 15
+                numbers.removeIf(num -> num > 15);
+    There is No need to express the Data Type, Lambda Expression recognize or figure out the data type
+------------------------------------------------------------
+
+Sets:
+    Sets are HashSet, LinkedHashSet, TreeSet that don't allow duplicate values. There are 4 main classes
+1. HashSet
+    Upside: Fast
+    Downside: Doesn't retain insertion order , doesn't allow duplicate value
+2. LinkedHashSet:
+    Upside: Retains the Insertion Order
+    Downside: Doesn't allow duplicate values and its slower than HashSet
+3. TreeSet:
+    Upside: It keeps the data sorted (Alphabetically or Chronologically smaller to bigger)
+    Downside: It is more slower
